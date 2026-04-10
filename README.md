@@ -180,7 +180,7 @@ This project directly maps to the responsibilities and qualifications listed for
 
 *Dataset is fully simulated. All numbers are fictional and for portfolio purposes only.*
 
-#➕ 🔮 Revenue Forecast Model (NEW)
+#➕ 🔮 Revenue Forecast Model 
 ##📈 Forecast Overview
 
 To complement the funnel and retention analysis, a 6-month revenue forecast model was built using historical closed-won data and linear trend extrapolation.
@@ -200,6 +200,7 @@ Interpretation:
 
 The business has a ~€380k range of potential outcomes over the next 6 months
 Current trajectory suggests ~€845k expected revenue, assuming no major changes in funnel efficiency or churn
+
 ##📉 Model Methodology
 ###1. Historical Trend
 Monthly revenue aggregated from closed-won deals
