@@ -180,33 +180,75 @@ This project directly maps to the responsibilities and qualifications listed for
 
 *Dataset is fully simulated. All numbers are fictional and for portfolio purposes only.*
 
-➕ 🔮 Revenue Forecast (6 Months)
-📊 Headline
+#➕ 🔮 Revenue Forecast Model (NEW)
+##📈 Forecast Overview
 
-Base forecast: €845k
-Range: €634k – €1.01M (±45%)
+To complement the funnel and retention analysis, a 6-month revenue forecast model was built using historical closed-won data and linear trend extrapolation.
 
-🧠 Key Insight
+The model provides three scenarios to support executive planning:
 
-Revenue is deal-driven, not trend-driven
+Base (trend) → continuation of current trajectory
+Optimistic (+20%) → pipeline acceleration / improved conversion
+Pessimistic (-25%) → churn impact + slower deal velocity
+##📊 Forecast Results (6 Months)
+Scenario	Total Revenue
+Pessimistic	€633,566
+Base (Trend)	€844,755
+Optimistic	€1,013,706
 
-High volatility (low predictability)
-Outcomes depend on a small number of Enterprise deals
-⚠️ Key Risks
-Enterprise concentration → few deals drive most revenue
-Forecast uncertainty → weak historical trend (R² ≈ 0)
-Mid-Market churn (~14%) → potential downside risk
-🎯 Implications
-Use scenario ranges, not single-point forecasts
-Focus on deal execution and renewals
-Forecast accuracy depends more on pipeline quality than historical trend
-📈 Scenarios
-Scenario	Revenue
-Pessimistic	€633k
-Base	€845k
-Optimistic	€1.01M
-🧭 Takeaway
+Interpretation:
 
-“Managing execution risk is more critical than predicting trends.”
+The business has a ~€380k range of potential outcomes over the next 6 months
+Current trajectory suggests ~€845k expected revenue, assuming no major changes in funnel efficiency or churn
+##📉 Model Methodology
+###1. Historical Trend
+Monthly revenue aggregated from closed-won deals
+Linear regression applied to estimate trend:
+Revenue(t) = slope × t + intercept
+Result: flat/weak trend (low R²) → high variability in revenue
 
+👉 Insight:
 
+Revenue is not strongly predictable based on trend alone — reinforcing the need for scenario planning
+
+###2. Scenario Construction
+Scenario	Assumption
+Base	Linear trend continuation
+Optimistic	+20% uplift (pipeline acceleration, better conversion)
+Pessimistic	-25% downside (churn + slower sales cycles)
+###3. Segment-Level Forecast
+
+Forecast also broken down by segment:
+
+Enterprise → main revenue driver, stable growth
+Mid-Market → moderate growth, but sensitive to churn
+SMB → declining contribution over time
+
+👉 Insight:
+
+Growth is heavily dependent on Enterprise performance, reinforcing existing revenue concentration risk
+
+#⚠️ Key Forecast Risks
+##1. Revenue Volatility
+Historical revenue shows high fluctuation month-to-month
+Low trend predictability (R² ≈ 0)
+##2. Enterprise Dependency
+Majority of forecast driven by a small number of large deals
+Delays or churn in a few accounts can significantly impact outcomes
+##3. Mid-Market Churn Sensitivity
+At ~14%, small increases in churn can materially affect forecast accuracy
+##🎯 Strategic Implications
+Short-term
+Use scenario range for planning, not single-point forecast
+Closely monitor Enterprise pipeline and deal slippage
+Medium-term
+Improve forecast reliability by:
+increasing pipeline coverage
+reducing churn variability
+Long-term
+Reduce dependency on large deals by:
+strengthening Mid-Market retention
+improving SMB efficiency or deprioritising
+#🧠 Executive Takeaway
+
+“The forecast highlights that revenue outcomes are highly sensitive to a small number of variables — particularly Enterprise deal execution and churn. Scenario-based planning is therefore more appropriate than deterministic forecasting.”
