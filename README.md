@@ -1,5 +1,3 @@
-# Revenue-Funnel-Retention-Analytics-RevOps-Case-Study-
-Revenue Funnel &amp; Retention Analytics (RevOps Case Study)
 # 📊 RevOps Case Study — Revenue Funnel & Retention Analysis
 
 > A Revenue Operations portfolio project simulating real-world challenges in funnel optimisation, churn reduction, and data-driven stakeholder decision-making.  
@@ -31,7 +29,8 @@ revops-funnel-analysis/
 │
 ├── sql/
 │   ├── 01_funnel_conversion.sql    # Funnel analysis: lead → opp → close
-│   └── 02_retention_churn.sql      # Churn rates, cohorts, risk signals
+│   ├── 02_retention_churn.sql      # Churn rates, cohorts, risk signals
+│   └── 03_midmarket_churn_breakdown.sql  # Mid-Market deep dive by region & industry
 │
 ├── python/
 │   └── revops_analysis.py          # Pandas analysis + matplotlib dashboard
@@ -76,6 +75,30 @@ revops-funnel-analysis/
 | SMB | **24%** | ~€226k |
 
 **Finding:** Mid-Market is the most financially dangerous churn zone — high enough rate, high enough ARR. SMB churn is structurally high but lower in absolute impact.
+
+### 4. Mid-Market Churn Deep Dive
+
+The 14% average masks significant variation underneath. Breaking down by region and industry reveals where the problem is actually concentrated.
+
+**By Region:**
+
+| Region | Customers | Churn Rate | ARR at Risk |
+|---|---|---|---|
+| AMER | 24 | **21%** 🔴 | €199k |
+| APAC | 27 | 11% | €141k |
+| EMEA | 23 | 9% | €95k |
+
+**By Industry:**
+
+| Industry | Customers | Churn Rate | ARR at Risk |
+|---|---|---|---|
+| Education | 14 | **29%** 🔴 | €181k |
+| Healthcare | 16 | 19% 🟡 | €113k |
+| Manufacturing | 12 | 8% | €44k |
+| Professional Services | 14 | 7% | €40k |
+| Public Sector | 18 | 6% | €57k |
+
+**Finding:** The 14% Mid-Market average is misleading. AMER is at 21% — more than double EMEA. Education as a vertical is at 29% — nearly double the segment average. The critical next question (see `sql/03_midmarket_churn_breakdown.sql`) is whether AMER churn is concentrated in Education or spread across industries — because that distinction changes the recommended action entirely.
 
 ---
 
@@ -151,7 +174,7 @@ This project directly maps to the responsibilities and qualifications listed for
 - ✅ **Churn & retention metrics** — standard SaaS KPIs (churn rate, ARR at risk, NPS correlation)
 - ✅ **Cross-functional thinking** — recommendations framed for Sales, CS, Marketing, and Finance
 
----
+  ---
 
 ![RevOps Dashboard](dashboard/revops_dashboard.png)
 
