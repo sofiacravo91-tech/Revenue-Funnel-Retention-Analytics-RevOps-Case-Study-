@@ -16,6 +16,7 @@ This project answers three core RevOps questions:
 1. **Where is the funnel leaking?** — Which segments convert poorly and why?
 2. **Who is at risk of churning?** — Can we identify early signals before it's too late?
 3. **What should we do about it?** — Actionable recommendations, not just dashboards.
+   ![RevOps Dashboard](revops_dashboard.png)
 
 ---
 
