@@ -180,4 +180,33 @@ This project directly maps to the responsibilities and qualifications listed for
 
 *Dataset is fully simulated. All numbers are fictional and for portfolio purposes only.*
 
+➕ 🔮 Revenue Forecast (6 Months)
+📊 Headline
+
+Base forecast: €845k
+Range: €634k – €1.01M (±45%)
+
+🧠 Key Insight
+
+Revenue is deal-driven, not trend-driven
+
+High volatility (low predictability)
+Outcomes depend on a small number of Enterprise deals
+⚠️ Key Risks
+Enterprise concentration → few deals drive most revenue
+Forecast uncertainty → weak historical trend (R² ≈ 0)
+Mid-Market churn (~14%) → potential downside risk
+🎯 Implications
+Use scenario ranges, not single-point forecasts
+Focus on deal execution and renewals
+Forecast accuracy depends more on pipeline quality than historical trend
+📈 Scenarios
+Scenario	Revenue
+Pessimistic	€633k
+Base	€845k
+Optimistic	€1.01M
+🧭 Takeaway
+
+“Managing execution risk is more critical than predicting trends.”
+
 
