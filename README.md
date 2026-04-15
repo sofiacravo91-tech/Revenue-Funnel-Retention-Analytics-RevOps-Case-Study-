@@ -24,7 +24,9 @@ This project answers four core RevOps questions:
 
 \`\`\`
 revops-funnel-analysis/
+
 │
+
 ├── data/
 
 │   ├── leads_pipeline.csv                    # 500 simulated leads across segments & sources
