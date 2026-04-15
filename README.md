@@ -1,4 +1,4 @@
-# 📊 RevOps Case Study — Revenue Funnel & Retention Analysis
+# 📊 RevOps Case Study - Revenue Funnel & Retention Analysis
 
 > A Revenue Operations portfolio project simulating real-world challenges in funnel optimisation, churn reduction, and data-driven stakeholder decision-making.  
 > Built as preparation for a RevOps Business Partner role at a SaaS/ERP company.
@@ -13,10 +13,10 @@
 
 This project answers four core RevOps questions:
 
-1. **Where is the funnel leaking?** — Which segments convert poorly and why?
-2. **Who is at risk of churning?** — Can we identify early signals before it's too late?
-3. **What does revenue look like in the next 6 months?** — Scenario-based forecast to support executive planning.
-4. **What should we do about it?** — Actionable recommendations, not just dashboards.
+1. **Where is the funnel leaking?**  Which segments convert poorly and why?
+2. **Who is at risk of churning?**  Can we identify early signals before it's too late?
+3. **What does revenue look like in the next 6 months?**  Scenario-based forecast to support executive planning.
+4. **What should we do about it?**  Actionable recommendations, not just dashboards.
 
 ---
 
