@@ -93,7 +93,7 @@ revops-funnel-analysis/
 | Mid-Market | 17 | €773,000 | €45,471 |
 | SMB | 7 | €87,000 | €12,429 |
 
-**Finding:** Enterprise accounts for ~75% of revenue from just 4% of leads. This concentration is efficient but creates dependency risk — a small number of accounts can significantly move the needle in either direction.
+**Finding:** Enterprise accounts for ~75% of revenue from just 4% of leads. This concentration is efficient but creates dependency risk, a small number of accounts can significantly move the needle in either direction.
 
 ---
 
@@ -105,7 +105,7 @@ revops-funnel-analysis/
 | Mid-Market | **14%** | ~€426k |
 | SMB | **24%** | ~€226k |
 
-**Finding:** Mid-Market is the most financially dangerous churn zone — high enough rate, high enough ARR. SMB churn is structurally high but lower in absolute impact.
+**Finding:** Mid-Market is the most financially dangerous churn zone, high enough rate, high enough ARR. SMB churn is structurally high but lower in absolute impact.
 
 ---
 
