@@ -26,14 +26,14 @@ This project answers four core RevOps questions:
 revops-funnel-analysis/
 │
 ├── data/
-│  ├── leads_pipeline.csv                    # 500 simulated leads across segments & sources
-│  ├── customers_retention.csv               # 200 customers with ARR, churn, NPS, engagement
-│  └── generate_data.py                      # Reproducible data generation script
+├─leads_pipeline.csv                    # 500 simulated leads across segments & sources
+├─ customers_retention.csv               # 200 customers with ARR, churn, NPS, engagement
+└── generate_data.py                      # Reproducible data generation script
 
 ├── sql/
-│  ├── 01_funnel_conversion.sql              # Funnel analysis: lead → opp → close
-│  ├── 02_retention_churn.sql                # Churn rates, cohorts, risk signals
-│  └── 03_midmarket_churn_breakdown.sql      # Mid-Market deep dive by region & industry
+├─ 01_funnel_conversion.sql              # Funnel analysis: lead → opp → close
+├─ 02_retention_churn.sql                # Churn rates, cohorts, risk signals
+└── 03_midmarket_churn_breakdown.sql      # Mid-Market deep dive by region & industry
 
 ├── python/
 │  ├── revops_analysis.py                    # Pandas analysis + matplotlib dashboard
