@@ -131,7 +131,7 @@ The 14% average masks significant variation. Breaking down by region and industr
 | Professional Services | 14 | 7% | €40k |
 | Public Sector | 18 | 6% | €57k |
 
-**Finding:** AMER is at 21% — more than double EMEA. Education as a vertical is at 29% — nearly double the segment average. The critical next question (see `sql/03_midmarket_churn_breakdown.sql`) is whether AMER churn is concentrated in Education or spread across industries — because that distinction changes the recommended action entirely.
+**Finding:** AMER is at 21% — more than double EMEA. Education as a vertical is at 29% — nearly double the segment average. The critical next question (see `sql/03_midmarket_churn_breakdown.sql`) is whether AMER churn is concentrated in Education or spread across industries, because that distinction changes the recommended action entirely.
 
 ---
 
@@ -160,8 +160,8 @@ A 6-month forward projection built on linear trend extrapolation from historical
 
 ### Short-term (0–90 days)
 - **Launch CSM outreach** to the 15–20 High Risk accounts in the Churn Risk Register (Excel Sheet 4), prioritised by ARR
-- **Review SMB lead qualification criteria** — 3% win rate suggests poor targeting or insufficient qualification gates in CRM
-- **Use pessimistic scenario as planning floor** — monitor Enterprise pipeline weekly given revenue concentration risk
+- **Review SMB lead qualification criteria**  3% win rate suggests poor targeting or insufficient qualification gates in CRM
+- **Use pessimistic scenario as planning floor**  monitor Enterprise pipeline weekly given revenue concentration risk
 
 ### Medium-term (90–180 days)
 - **Build a Mid-Market retention playbook** — NPS ≤5 + login inactivity >60 days should trigger automatic CS escalation
@@ -242,13 +242,13 @@ cd python && python revenue_forecast.py
 
 This project directly maps to the responsibilities and qualifications listed for RevOps roles in SaaS/ERP environments:
 
-- ✅ **Funnel productivity analysis** across lead stages
-- ✅ **CRM-style data modelling** (Dynamics 365 equivalent logic)
-- ✅ **Excel proficiency** — formulas, structured tables, cohort pivots, risk register, scenario model
-- ✅ **Revenue forecasting** — scenario-based planning with explicit assumptions and caveats
-- ✅ **Stakeholder communication** — ambiguous case framing for senior management
-- ✅ **Churn & retention metrics** — standard SaaS KPIs (churn rate, ARR at risk, NPS correlation)
-- ✅ **Cross-functional thinking** — recommendations framed for Sales, CS, Marketing, Finance and the CFO
+-  **Funnel productivity analysis** across lead stages
+-  **CRM-style data modelling** (Dynamics 365 equivalent logic)
+-  **Excel proficiency** — formulas, structured tables, cohort pivots, risk register, scenario model
+-  **Revenue forecasting** — scenario-based planning with explicit assumptions and caveats
+-  **Stakeholder communication** — ambiguous case framing for senior management
+-  **Churn & retention metrics** — standard SaaS KPIs (churn rate, ARR at risk, NPS correlation)
+-  **Cross-functional thinking** — recommendations framed for Sales, CS, Marketing, Finance and the CFO
 
 ---
 
