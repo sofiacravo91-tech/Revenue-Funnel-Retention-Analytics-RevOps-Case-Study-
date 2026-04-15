@@ -81,7 +81,7 @@ revops-funnel-analysis/
 | Mid-Market | 28% | 37% | **10%** |
 | SMB | 14% | 21% | **3%** |
 
-**Finding:** Enterprise converts at 7x the rate of SMB. However, SMB generates the highest lead volume — raising the question of resource allocation efficiency.
+**Finding:** Enterprise converts at 7x the rate of SMB. However, SMB generates the highest lead volume, raising the question of resource allocation efficiency.
 
 ---
 
